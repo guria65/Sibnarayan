@@ -7,7 +7,7 @@ import numpy as np
 # r.data('trees')
 # x=np.array(r['trees'])
 # x1=pd.DataFrame(x)
-data_path = '/Users/sib/PYTHON/trees.csv'
+data_path = 'trees.csv'
 with open(data_path, 'r') as f:
     reader = csv.reader(f, delimiter=',')
     # get header from first row
